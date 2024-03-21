@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "pwrp-edge-sentinel/1.0.0": {
+        "runtime": {
+          "pwrp-edge-sentinel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "pwrp-edge-sentinel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
