@@ -7,8 +7,28 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "pwrp-edge-sentinel/1.0.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.26.0",
+          "MQTTnet": "4.3.3.952"
+        },
         "runtime": {
           "pwrp-edge-sentinel.dll": {}
+        }
+      },
+      "Google.Protobuf/3.26.0": {
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.26.0.0",
+            "fileVersion": "3.26.0.0"
+          }
+        }
+      },
+      "MQTTnet/4.3.3.952": {
+        "runtime": {
+          "lib/net7.0/MQTTnet.dll": {
+            "assemblyVersion": "4.3.3.952",
+            "fileVersion": "4.3.3.952"
+          }
         }
       }
     }
@@ -18,6 +38,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Google.Protobuf/3.26.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AkWr2Hz/rycJapYHXS3gT5UVq8K8D2gkNA70ePe22oejNVGMkw5Mtasri2VbNtBCgbqtE8MsIPYp73xud2wAVQ==",
+      "path": "google.protobuf/3.26.0",
+      "hashPath": "google.protobuf.3.26.0.nupkg.sha512"
+    },
+    "MQTTnet/4.3.3.952": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6AFOGkdnqzIfvaPbTnPLYvBibBdGfJlTTWonIZp+VHpRy6fEl+KT9Z1AG1/4AaDAw5TJ0WpqCmrV9TVUWkLffg==",
+      "path": "mqttnet/4.3.3.952",
+      "hashPath": "mqttnet.4.3.3.952.nupkg.sha512"
     }
   }
 }
